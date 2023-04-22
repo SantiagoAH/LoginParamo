@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CreaciónLogin</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="btnlogin">Login</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="terminos">Aceptar terminos de privacidad</string>
+
+    <string name="Bienvenido">Bienvenido</string>
+    <string name="Datos">Datos</string>
+    <string name="info_Name">Nombre:</string>
+    <string name="info_password">Password:</string>
+    <string name="InfoNombre">nombreEnviado</string>
+    <string name="infoContra">ContraEnviado</string>
+    <string name="VolverInicio">Volver</string>
+
+</resources>
