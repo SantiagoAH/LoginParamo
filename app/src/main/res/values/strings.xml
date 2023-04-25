@@ -14,4 +14,11 @@
     <string name="infoContra">ContraEnviado</string>
     <string name="VolverInicio">Volver</string>
 
+
+    <string name="Genero">Genero:</string>
+    <string name="Hombre">Hombre</string>
+    <string name="Mujer">Mujer</string>
+
+
+
 </resources>

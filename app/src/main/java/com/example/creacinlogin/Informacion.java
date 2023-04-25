@@ -20,12 +20,15 @@ public class Informacion extends AppCompatActivity {
         nombre = findViewById(R.id.infoNombre);
         contra = findViewById(R.id.infoContra);
 
+
         Bundle recibeDatos = getIntent().getExtras();
         String info = recibeDatos.getString("Datousuario"); // recojemos los datos
         nombre.setText(info);
 
         String cont = recibeDatos.getString("Datocontra"); // recojemos los datos
         contra.setText(cont);
+
+        String genero =  recibeDatos.getString("genero");
 
 
     }

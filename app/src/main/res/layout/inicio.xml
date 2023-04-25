@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
+    android:padding="20dp"
     android:background="@color/colorPrimaryDark"
-    android:onClick="Reg"
+
 
 
     android:orientation="vertical"
@@ -16,17 +17,17 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="430dp"
+        android:layout_height="350dp"
         app:srcCompat="@drawable/logo"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-4dp" />
-
 
     <EditText
         android:id="@+id/txt_nombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:padding="10dp"
         android:hint="@string/txt_nombre"
         android:inputType="textPersonName"
         android:textSize="24sp" />
@@ -36,16 +37,47 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:padding="10dp"
         android:hint="@string/txt_password"
         android:inputType="textPassword"
         android:textSize="24sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtGenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/Genero"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rbhombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/Hombre" />
+
+        <RadioButton
+            android:id="@+id/rbmujer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/Mujer" />
+    </RadioGroup>
 
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="20dp"
         android:text="@string/terminos" />
+
+
 
     <Button
         android:id="@+id/btnlogin"
@@ -53,6 +85,9 @@
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:onClick="Login"
+        android:padding="20dp"
         android:text="@string/btnlogin" />
+
+
 
 </LinearLayout>

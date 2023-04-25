@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:text="@string/Bienvenido"
         android:textColor="#000000"
-        android:textSize="34sp" />
+        android:textSize="50sp" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -32,11 +32,22 @@
         app:layout_constraintTop_toBottomOf="@+id/Bienvenido"
         app:srcCompat="@drawable/ecologia" />
 
+
+    <TextView
+        android:id="@+id/dATOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Datos"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
     <TextView
         android:id="@+id/infoNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
+        android:padding="20dp"
         android:textColor="#000000"
         android:textSize="20sp" />
 
@@ -45,20 +56,33 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/infoGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="20dp"
         android:textColor="#000000"
         android:textSize="20sp" />
 
+
     <Button
         android:id="@+id/VolverInicio"
-        android:layout_width="wrap_content"
+        android:layout_width="272dp"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:onClick="Volver"
+        android:padding="20dp"
         android:text="@string/VolverInicio"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="619dp" />
+
+
 
 </LinearLayout>
